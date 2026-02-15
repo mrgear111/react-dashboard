@@ -9,7 +9,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom' // intern
 const router = createBrowserRouter([
 
   {path: "/",element: <App />,}
-  
+
 ]);
 
 createRoot(document.getElementById('root')).render(
